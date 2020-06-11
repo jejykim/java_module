@@ -1,13 +1,13 @@
 # Paging Control
 
-##구성
+## 구성
 1. util
 2. controller
 3. vo
 4. jsp
 5. js
 
-###기본 설정
+### 기본 설정
 - 첫 페이지
 - 이전 페이지 n-1 
 - n 페이지 (2- {중앙 위치} +2)
