@@ -43,4 +43,17 @@ public class HashParameter {
         }
         return builder.toString();
     }
+
+    /**
+     * salt 값을 변환한다
+     * 
+     * @param 
+     * @return String
+     */
+    public String makeSalt() {
+        byte[] bytes = new byte[16];
+        random.nextBytes(bytes);
+        return new String(Base64.getEncoder().encode(bytes));
+    }
+    
 }
