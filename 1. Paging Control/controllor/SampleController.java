@@ -6,7 +6,7 @@ public class SampleController {
 	private SampleService sampleService;
 
 	// Sample List
-	@GetMapping(value = "/devices/list.do")
+	@GetMapping(value = "/sample/list.do")
 	public String sampleList(ModelMap model, HttpServletRequest req, HttpServletResponse resp, RedirectAttributes redirectAttributes) {
 			
 		// SampleVO 참조
